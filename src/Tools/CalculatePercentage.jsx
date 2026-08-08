@@ -26,7 +26,7 @@ const PercentageCalculator = () => {
                         <input
                             type="number"
                             value={percentage}
-                            onChange={(e) => setPercentage(parseFloat(e.target.value) || 0)}
+                            onChange={(e) => setPercentage(parseFloat(e.target.value))}
                             className="w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 rounded-xl px-4 py-3 text-lg font-medium text-slate-800 dark:text-white outline-none transition-all"
                         />
                     </div>
@@ -35,7 +35,7 @@ const PercentageCalculator = () => {
                         <input
                             type="number"
                             value={totalValue}
-                            onChange={(e) => setTotalValue(parseFloat(e.target.value) || 0)}
+                            onChange={(e) => setTotalValue(parseFloat(e.target.value))}
                             className="w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 rounded-xl px-4 py-3 text-lg font-medium text-slate-800 dark:text-white outline-none transition-all"
                         />
                     </div>

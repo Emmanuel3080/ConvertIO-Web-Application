@@ -34,7 +34,7 @@ const VolumeConverter = () => {
                         <input
                             type="number"
                             value={value}
-                            onChange={(e) => setValue(parseFloat(e.target.value) || 0)}
+                            onChange={(e) => setValue(parseFloat(e.target.value))}
                             className="w-3/5 bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 rounded-xl px-4 py-3 text-lg font-medium text-slate-800 dark:text-white outline-none transition-all"
                         />
                         <select
